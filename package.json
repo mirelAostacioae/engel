@@ -1,0 +1,20 @@
+{
+  "name": "cbs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.html",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-bower-install-simple": "^1.2.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-stylus": "~0.10.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "load-grunt-tasks": "^3.4.0",
+    "nib": "latest",
+    "normalize": "latest",
+    "stylus": "latest"
+  },
+  "author": "Mirel Aostacioae",
+  "license": "BSD-2-Clause"
+}

@@ -1,0 +1,225 @@
+@import 'variables'
+
+*
+	-webkit-font-smoothing antialiased
+	-moz-osx-font-smoothing grayscale
+	box-sizing border-box
+	outline none !important
+	&:focus
+		outline none
+// Bootstrap override
+
+body,h1,h2,h3,h4,h5,h6,p,ul,input,button,textarea,select
+	margin 0
+	padding 0
+	line-height 1
+	color lightColor
+p,input,button 
+	border none
+h1,h2,h3
+	font-family titleFont
+h4,h5,h6
+	font-family dinnBold
+p,ul,input,textarea,select
+	font-family dinnRegular
+	
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder
+		color textColor
+		text-transform uppercase
+
+input
+	padding 5px 10px
+	width 100%
+	border 3px solid #ebebeb
+	
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button
+	-webkit-appearance none
+	margin 0
+	
+textarea 
+	padding 5px 10px
+	resize none
+	height 80px
+	width 100%
+	border 3px solid #ebebeb
+	
+select 
+	position relative
+	padding 5px 10px
+	padding-right 15px
+	-webkit-appearance none
+	-moz-appearance none
+	appereance none
+	
+input[type=number]
+	-moz-appearance textfield
+	margin 0
+	
+a 
+	color #000
+	text-decoration none !important
+	&:hover 
+		color #000
+	
+.hidden
+	display none
+	
+.clearfix
+	&:before, &:after
+		display table
+		content ' '
+	&:after
+		clear both
+
+// sticky footer 
+html 
+	height 100%
+	min-height 100%
+
+body 
+	position relative
+	min-height 100%
+	padding-left 80px
+	position relative
+.main-sidebar
+	position fixed
+	top 0
+	bottom 0
+	left 0
+	width 80px
+	text-align center
+	background-color #d80b1a
+	color lightColor
+	z-index 99999
+	a 
+		position relative
+		display inline-block
+		width 36px 
+		height 36px
+		color lightColor
+		line-height 36px
+		font-size 14px		
+	ul 
+		margin-bottom 170px
+		li 
+			display block
+			margin 32px 0
+			a
+				&:before 
+					font-size 15px
+					position relative
+					z-index 1
+					transition color .3s ease
+				&:after 
+					content ''
+					position absolute
+					top 0
+					right 0
+					bottom 0
+					left 0
+					font-size 20px	
+					background-color #ba0f1c
+					transform rotate(-45deg)
+					transition color .3s ease, background-color .3s ease
+				&:hover
+					&:before 
+						color #ba0f1c
+					&:after 
+						background-color lightColor
+.side-descr
+	transform rotate(-90deg)
+	white-space nowrap
+	display inline-block
+	text-transform uppercase
+	letter-spacing 2px	
+	font-family dinnBold
+.section-item
+	position relative
+	padding 0 40px
+	h2 
+		margin-bottom 20px
+		font-size 68px
+		font-family titleFont
+		font-weight 400
+		text-transform uppercase
+		text-align center 
+		// white-space nowrap
+		// overflow hidden
+		// text-overflow ellipsis
+	h5 
+		font-size 17px
+		text-transform uppercase
+		text-align center
+	&.section-item--events
+		h5 
+			margin-bottom 90px
+	
+.main-container
+	position relative
+	width 100%
+	max-width 1440px
+	padding 0 20px
+	margin 0 auto
+	&.main-container--smaller
+		max-width 1270px
+
+.btn-custom
+	display inline-block
+	padding 10px 15px
+	background-color darkColor 
+	color lightColor
+	font-size 21px
+	font-family berlinFont
+	font-weight 700
+	transition background-color .3s ease, color .3s ease
+	text-transform uppercase
+	&:hover
+		background-color lightColor
+		color darkColor
+		
+.row-flex
+	display flex
+	flex-direction row
+	flex-wrap wrap
+	justify-content center
+	&.row-flex--left
+		justify-content flex-start
+	&.row-flex--right
+		justify-content flex-end
+	&.row-flex--top
+		align-items flex-start
+	&.row-flex--middle
+		align-items center
+	&.row-flex--bottom
+		align-items baseline
+	.flex-item
+		flex-grow 1
+
+.aspect-ratio
+	position relative
+	&:before
+		content ''
+		display block 
+		padding-top 100%
+		
+.aspect-ratio__content
+	position absolute
+	top 50%
+	left 50%
+	transform translate(-50%, -50%)
+		
+.col-wrap
+	font-size 0
+.col-item
+	display inline-block
+	vertical-align top
+	float initial
+	&.col-item--mid
+		vertical-align middle
+	&.col-item--bottom
+		vertical-align bottom
+

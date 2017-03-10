@@ -1,0 +1,24 @@
+# Turn mod_rewrite on
+RewriteEngine On
+
+<ifModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} !index
+    RewriteRule (.*) index.php?q=$1 [L]
+</ifModule>
+
+# 480 weeks
+
+Header set Cache-Control "max-age=290304000, public"
+
+
+# 2 DAYS
+
+Header set Cache-Control "max-age=172800, public, must-revalidate"
+
+
+# 2 HOURS
+
+Header set Cache-Control "max-age=7200, must-revalidate"

@@ -1,0 +1,12 @@
+{
+  "name": "cbs",
+  "version": "0.0.0",
+  "dependencies": {
+    "commonjs": "0.2.0",
+    "bootstrap": "latest",
+    "font-awesome": "latest",
+    "slick-carousel": "latest",
+    "jQuery.dotdotdot": "latest",
+    "oclazyload": "latest"
+  }
+}

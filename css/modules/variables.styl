@@ -1,0 +1,36 @@
+//  FONTS
+primaryFont       = 'Roboto'
+titleFont         = 'bungee_regularregular'
+berlinFont        = 'BerlinSansFBDemi-Bold'
+dinnBold          = 'DINNeuzeitGrotesk-BoldCond'
+dinnRegular       = 'DIN-Regular'
+
+// COLORS
+darkColor            = #000
+lightColor           = #fff
+errorColor           = #C74343 
+
+// MIXINS
+makeHidden()
+	opacity 0
+	visibility hidden
+	
+makeVisible()
+	opacity 1
+	visibility visible
+	
+inlineBlock(align)
+	display inline-block
+	vertical-align align
+
+		
+@keyframes pulse-dark
+	0%
+		transform scale(1)
+	70%
+		transform scale(1)
+		box-shadow 0 0 0 30px rgba(#000, 0)
+	100%
+		transform scale(1)
+		box-shadow 0 0 0 0px rgba(#000, 0)
+
