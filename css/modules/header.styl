@@ -1,1 +1,28 @@
 @import 'variables'
+
+.header-top
+	background-color #007bbd
+	li
+		padding 15px 10px
+	nav
+		li
+			padding 15px 0
+			font-weight 600
+			&:after
+				content: '|'
+				padding 0 25px
+				color #3c98cf
+	a
+		color lightColor
+		font-family primaryFont
+		.fa
+			margin-right 7px
+		.status
+			display inline-block
+			width 10px
+			height 10px
+			border-radius 50%
+			&.online
+				background-color #93c12f
+			&.offline
+				background-color #cc0000
