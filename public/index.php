@@ -18,34 +18,43 @@
 						<h4 class="product-item--type">Inbouwkoelkast</h4>
 						<h3 class="product-item--name">Engel CK-47</h3>
 						<div class="product-item--category"><img src="img/categ-a.png"></div>
-						<div class="product-item--image" style="background-image: url('img/product-img.jpg')"></div>
-						<div class="row-flex row-flex--middle">
+						<div class="product-item--image aspect-ratio" style="background-image: url('img/product-img.jpg')"></div>
+						<div class="product-item--details row-flex row-flex--middle">
 							<p class="product-item--price flex-item">€ 895.00</p>
 							<p class="product-item--capacity">14 liter</p>
+						</div>
+						<div class="product-item--timer">
+							<p><i class="fa fa-clock-o"></i>Levering binnen 48 uur</p>
 						</div>
 					</div>
 					<div class="product-item col-md-4 col-sm-6 col-xs-12">
 						<h4 class="product-item--type">Inbouwkoelkast</h4>
 						<h3 class="product-item--name">Engel CK-47</h3>
 						<div class="product-item--category"><img src="img/categ-a.png"></div>
-						<div class="product-item--image" style="background-image: url('img/product-img.jpg')"></div>
-						<div class="row-flex row-flex--middle">
+						<div class="product-item--image aspect-ratio" style="background-image: url('img/product-img.jpg')"></div>
+						<div class="product-item--details row-flex row-flex--middle">
 							<p class="product-item--price flex-item">€ 895.00</p>
 							<p class="product-item--capacity">14 liter</p>
+						</div>
+						<div class="product-item--timer">
+							<p><i class="fa fa-clock-o"></i>Levering binnen 48 uur</p>
 						</div>
 					</div>
 					<div class="product-item col-md-4 col-sm-6 col-xs-12">
 						<h4 class="product-item--type">Inbouwkoelkast</h4>
 						<h3 class="product-item--name">Engel CK-47</h3>
 						<div class="product-item--category"><img src="img/categ-a.png"></div>
-						<div class="product-item--image" style="background-image: url('img/product-img.jpg')"></div>
-						<div class="row-flex row-flex--middle">
+						<div class="product-item--image aspect-ratio" style="background-image: url('img/product-img.jpg')"></div>
+						<div class="product-item--details row-flex row-flex--middle">
 							<p class="product-item--price flex-item">€ 895.00</p>
 							<p class="product-item--capacity">14 liter</p>
+						</div>
+						<div class="product-item--timer">
+							<p><i class="fa fa-clock-o"></i>Levering binnen 48 uur</p>
 						</div>
 					</div>
 				</div>
-				<div class="promo-wrap" style="background-image: url('img/boat-img.jpg')">
+				<div class="promo-wrap clearfix" style="background-image: url('img/boat-img.jpg')">
 					<div class="col-md-5 col-md-7">
 						<h3>Robuuste inbouwkoelkasten<br>voor verschillende <br>toepassingen</h3>
 						<p>campers, caravans, boten, <br>trucks en offroad voertuigen</p>
@@ -56,30 +65,39 @@
 						<h4 class="product-item--type">Inbouwkoelkast</h4>
 						<h3 class="product-item--name">Engel CK-47</h3>
 						<div class="product-item--category"><img src="img/categ-a.png"></div>
-						<div class="product-item--image" style="background-image: url('img/product-img.jpg')"></div>
-						<div class="row-flex row-flex--middle">
+						<div class="product-item--image aspect-ratio" style="background-image: url('img/product-img.jpg')"></div>
+						<div class="product-item--details row-flex row-flex--middle">
 							<p class="product-item--price flex-item">€ 895.00</p>
 							<p class="product-item--capacity">14 liter</p>
+						</div>
+						<div class="product-item--timer">
+							<p><i class="fa fa-clock-o"></i>Levering binnen 48 uur</p>
 						</div>
 					</div>
 					<div class="product-item col-md-4 col-sm-6 col-xs-12">
 						<h4 class="product-item--type">Inbouwkoelkast</h4>
 						<h3 class="product-item--name">Engel CK-47</h3>
 						<div class="product-item--category"><img src="img/categ-a.png"></div>
-						<div class="product-item--image" style="background-image: url('img/product-img.jpg')"></div>
-						<div class="row-flex row-flex--middle">
+						<div class="product-item--image aspect-ratio" style="background-image: url('img/product-img.jpg')"></div>
+						<div class="product-item--details row-flex row-flex--middle">
 							<p class="product-item--price flex-item">€ 895.00</p>
 							<p class="product-item--capacity">14 liter</p>
+						</div>
+						<div class="product-item--timer">
+							<p><i class="fa fa-clock-o"></i>Levering binnen 48 uur</p>
 						</div>
 					</div>
 					<div class="product-item col-md-4 col-sm-6 col-xs-12">
 						<h4 class="product-item--type">Inbouwkoelkast</h4>
 						<h3 class="product-item--name">Engel CK-47</h3>
 						<div class="product-item--category"><img src="img/categ-a.png"></div>
-						<div class="product-item--image" style="background-image: url('img/product-img.jpg')"></div>
-						<div class="row-flex row-flex--middle">
+						<div class="product-item--image aspect-ratio" style="background-image: url('img/product-img.jpg')"></div>
+						<div class="product-item--details row-flex row-flex--middle">
 							<p class="product-item--price flex-item">€ 895.00</p>
 							<p class="product-item--capacity">14 liter</p>
+						</div>
+						<div class="product-item--timer">
+							<p><i class="fa fa-clock-o"></i>Levering binnen 48 uur</p>
 						</div>
 					</div>
 				</div>
@@ -92,20 +110,26 @@
 						<h4 class="product-item--type">Inbouwkoelkast</h4>
 						<h3 class="product-item--name">Engel CK-47</h3>
 						<div class="product-item--category"><img src="img/categ-a.png"></div>
-						<div class="product-item--image" style="background-image: url('img/product-img.jpg')"></div>
-						<div class="row-flex row-flex--middle">
+						<div class="product-item--image aspect-ratio" style="background-image: url('img/product-img.jpg')"></div>
+						<div class="product-item--details row-flex row-flex--middle">
 							<p class="product-item--price flex-item">€ 895.00</p>
 							<p class="product-item--capacity">14 liter</p>
+						</div>
+						<div class="product-item--timer">
+							<p><i class="fa fa-clock-o"></i>Levering binnen 48 uur</p>
 						</div>
 					</div>
 					<div class="product-item col-md-6 col-sm-6 col-xs-12">
 						<h4 class="product-item--type">Inbouwkoelkast</h4>
 						<h3 class="product-item--name">Engel CK-47</h3>
 						<div class="product-item--category"><img src="img/categ-a.png"></div>
-						<div class="product-item--image" style="background-image: url('img/product-img.jpg')"></div>
-						<div class="row-flex row-flex--middle">
+						<div class="product-item--image aspect-ratio" style="background-image: url('img/product-img.jpg')"></div>
+						<div class="product-item--details row-flex row-flex--middle">
 							<p class="product-item--price flex-item">€ 895.00</p>
 							<p class="product-item--capacity">14 liter</p>
+						</div>
+						<div class="product-item--timer">
+							<p><i class="fa fa-clock-o"></i>Levering binnen 48 uur</p>
 						</div>
 					</div>
 				</div>

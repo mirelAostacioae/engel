@@ -65,29 +65,31 @@
 				</div>
 			</div>
 		</div>
-		<div class="header-menu">
-			<div class="header-button-menu">
-	            <div>   
-	                <span></span>
-	                <span></span>
-	                <span></span>
-	            </div>
-	        </div>
-			<nav>
-				<ul class="list-inline">
-					<li><a href="#">Categorieën</a></li>
-					<li><a href="#">Koelkasten</a></li>
-					<li><a href="#">Koelboxen</a></li>
-					<li><a href="#">Accessoires</a></li>
+		<div class="header-menu clearfix">
+			<div class="container">
+				<div class="header-button-menu">
+		            <div>   
+		                <span></span>
+		                <span></span>
+		                <span></span>
+		            </div>
+		        </div>
+				<nav>
+					<ul class="list-inline pull-left">
+						<li class="active"><a href="#">Categorieën</a></li>
+						<li><a href="#">Koelkasten</a></li>
+						<li><a href="#">Koelboxen</a></li>
+						<li><a href="#">Accessoires</a></li>
+					</ul>
+				</nav>
+				<ul class="list-inline pull-right">
+					<li><a href="#" target="_blank"><img src="img/paypal.png"></a></li>
+					<li><a href="#" target="_blank"><img src="img/ideal.png"></a></li>
+					<li><a href="#" target="_blank"><img src="img/mastercard.png"></a></li>
+					<li><a href="#" target="_blank"><img src="img/visa.png"></a></li>
+					<li><a href="#" target="_blank"><img src="img/postnl.png"></a></li>
 				</ul>
-			</nav>
-			<ul class="list-inline">
-				<li><a href="#" target="_blank"><img src="img/paypal.png"></a></li>
-				<li><a href="#" target="_blank"><img src="img/ideal.png"></a></li>
-				<li><a href="#" target="_blank"><img src="img/mastercard.png"></a></li>
-				<li><a href="#" target="_blank"><img src="img/visa.png"></a></li>
-				<li><a href="#" target="_blank"><img src="img/postnl.png"></a></li>
-			</ul>
+			</div>
 		</div>
 	</header>
 	

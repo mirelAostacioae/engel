@@ -1,20 +1,26 @@
 @import 'variables'
-
+a
+	font-family primaryFont
+	
 .header-top
 	background-color #007bbd
 	li
 		padding 15px 10px
+		font-size 14px
 	nav
 		li
 			padding 15px 0
-			font-weight 600
+			font-size 13px
+			font-weight 700
 			&:after
 				content: '|'
 				padding 0 25px
 				color #3c98cf
+			&:last-child
+				&:after
+					content initial
 	a
 		color lightColor
-		font-family primaryFont
 		.fa
 			margin-right 7px
 		.status
@@ -26,3 +32,27 @@
 				background-color #93c12f
 			&.offline
 				background-color #cc0000
+.header-main
+	background-color #0087cb
+.header-button
+	display none
+.header-menu
+	background-color #efefef
+	nav
+		li
+			padding 20px 0
+			font-weight 600
+			&:after
+				content: '|'
+				padding 0 25px
+				color #a8a8a8
+			a
+				color #0c0d0d
+			&:last-child
+				&:after
+					content initial
+			&.active
+				a
+					font-weight 400
+	li
+		padding 12px 0 12px 17px
