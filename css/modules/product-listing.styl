@@ -1,0 +1,63 @@
+@import 'variables'
+.products-wrap
+	font-size 0
+.product-item
+	inlineBlock(top)
+	margin-bottom 30px
+	float initial
+	font-family primaryFont
+.product-item--content
+	padding 15px
+	border 2px solid #efeeee
+	// box-shadow 1px 0px 15px 0px rgba(0,0,0,0.5)
+.product-item--type
+	margin-bottom 10px
+	color #989898
+	font-size 14px
+	font-weight 400
+.product-item--name
+	margin-bottom 15px
+	color #000
+	font-size 16px
+.product-item--category
+	text-align right
+	img 
+		width 70px
+.product-item--image
+	background-size contain
+	background-position center
+	background-repeat no-repeat
+	&:before
+		padding-top 60%
+.product-item--details
+	padding 15px 0 25px
+.product-item--price
+	color #000
+	font-size 16px
+	font-weight 700
+.product-item--capacity
+	color #000
+	font-size 14px
+.product-item--timer
+	display block
+	padding 10px 0
+	background-color #149d54
+	color #fff
+	font-size 14px
+	text-align center
+	box-shadow inset 0 0 20px rgba(255, 255, 255, 0)
+	outline 1px solid
+	outline-color rgba(255, 255, 255, .5)
+	outline-offset 0px
+	text-shadow none
+	transition all 1250ms cubic-bezier(0.19, 1, 0.22, 1)
+	&:hover 
+		background-color #238551
+		color lightColor
+		box-shadow inset 0 0 20px rgba(255, 255, 255, .8), 0 0 20px rgba(255, 255, 255, .5)
+		outline-color rgba(255, 255, 255, 0)
+		outline-offset 15px
+		text-shadow 1px 1px 2px #427388
+	.fa
+		margin-right 10px
+		font-size 16px

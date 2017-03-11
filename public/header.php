@@ -19,7 +19,9 @@
 	<link rel="stylesheet" type="text/css" href="css/custom.css">
 	
 	<!-- FONTS -->
-	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Ubuntu|Roboto:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
 
 
 </head>
