@@ -115,7 +115,7 @@
 				</div>
 			</main>
 		</section>
-		<section class="accessories-wrap">
+		<section class="accessories-wrap row">
 			<div class="col-md-12">
 				<h3>Accessories</h3>
 			</div>
@@ -154,10 +154,14 @@
 				</div>
 				<div class="home-contact-wrap col-md-6 col-sm-12 col-xs-12">
 					<div class="home-contact--content clearfix">
-						<div class="col-md-8">
+						<div class="col-md-8 ">
 							<h2>Hulp nodig?</h2>
 							<h3>Wij helpen u graag bij het uitzoeken van uw accessoires</h3>
-							<p>Dit is een faketekst. Alles wat hier staat is slechts om een indruk te geven van het grafische effect van tekst op deze plek. Wat u hier leest is een voorbeeldtekst. Deze wordt later vervangen door de uiteindelijke tekst, die nu nog niet bekend is.</p>
+							<p>Dit is een faketekst. Alles wat hier staat is slechts om een indruk te geven van het grafische effect van tekst op deze plek. Wat u hier leest is een voorbeeldtekst.</p>
+							<p>Koos Koeler</p>
+						</div>
+						<div class="home-contact--image col-md-6">
+							<img src="img/man-right.png">
 						</div>
 					</div>
 					<div class="home-contact--footer">
@@ -171,37 +175,42 @@
 		</section>
 		<section class="details-wrap">
 			<div class="row">
-				<div class="col-md-4 col-sm-12 col-xs-12">
+				<div class="details-column col-md-4 col-sm-12 col-xs-12">
 					<h3>Engel koelkasten</h3>
 					<p>Dit is een faketekst. Alles wat hier staat is slechts om een indruk te geven van het grafische effect van tekst op deze plek. Wat u hier leest is een voorbeeldtekst. Deze wordt later vervangen door de uiteindelijke tekst, die nu nog niet bekend is. De faketekst is dus een tekst die eigenlijk nergens over gaat. Het grappige is, dat mensen deze toch vaak lezen. Zelfs als men weet dat het om een faketekst gaat, lezen ze toch door.</p>
 				</div>
-				<div class="col-md-4 col-sm-12 col-xs-12">
-					<h3></h3>
+				<div class="details-column col-md-4 col-sm-12 col-xs-12">
+					<h3>Veel gestelde vragen</h3>
 					<div class="terms-wrap">
 						<div class="term-item">
 							<h4>Wat is de levertijd van de producten?</h4>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
 							<p></p>
 						</div>
 						<div class="term-item">
 							<h4>Zit er garantie op de producten?</h4>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
 							<p></p>
 						</div>
 						<div class="term-item">
 							<h4>Wat is de levertijd van de producten?</h4>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
 							<p></p>
 						</div>
 						<div class="term-item">
 							<h4>Zit er garantie op de producten?</h4>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
 							<p></p>
 						</div>
 						<div class="term-item">
 							<h4>Wat is de levertijd van de producten?</h4>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
 							<p></p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-12 col-xs-12">
-					<h3></h3>
+				<div class="details-column col-md-4 col-sm-12 col-xs-12">
+					<h3>Klanten beoordelen ons</h3>
 				</div>
 			</div>
 		</section>
