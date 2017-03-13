@@ -13,53 +13,53 @@
 				<div class="sidebar-item">
 					<h3>Type product</h3>
 					<ul>
-						<li>Koelkast (vrijstaand)</li>
-						<li>Koelkast (inbouw)</li>
-						<li>Koelbox</li>
+						<li><a href="#">Koelkast (vrijstaand)</a></li>
+						<li><a href="#">Koelkast (inbouw)</a></li>
+						<li><a href="#">Koelbox</a></li>
 					</ul>
 				</div>
 				<div class="sidebar-item">
 					<h3>Kies je inhoudsmaat</h3>
 					<div class="sidebar-sizes clearfix">
 						<div class="size-item col-md-6 col-sm-12 col-xs-6">
-							<div>
+							<a href="#">
 								<div>
 									<img src="img/size.jpg" style="width: 50px; height: 60px;">
 								</div>
 								<p>14 liter</p>
-							</div>
+							</a>
 						</div>
 						<div class="size-item col-md-6 col-sm-12 col-xs-6">
-							<div>
+							<a href="#">
 								<div>
 									<img src="img/size.jpg" style="width: 55px; height: 70px;">
 								</div>
 								<p>15 liter</p>
-							</div>
+							</a>
 						</div>
 						<div class="size-item col-md-6 col-sm-12 col-xs-6">
-							<div>
+							<a href="#">
 								<div>
 									<img src="img/size.jpg" style="width: 60px; height: 75px;">
 								</div>
 								<p>21 liter</p>
-							</div>
+							</a>
 						</div>
 						<div class="size-item col-md-6 col-sm-12 col-xs-6">
-							<div>
+							<a href="#">
 								<div>
 									<img src="img/size.jpg" style="width: 70px; height: 90px;">
 								</div>
 								<p>32 liter</p>
-							</div>
+							</a>
 						</div>
 						<div class="size-item col-md-6 col-sm-12 col-xs-6">
-							<div>
+							<a href="#">
 								<div>
 									<img src="img/size.jpg" style="width: 70px; height: 90px;">
 								</div>
 								<p>40 liter</p>
-							</div>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -167,7 +167,7 @@
 				</div>
 			</main>
 		</section>
-		<section class="accessories-wrap row">
+		<section class="accessories-wrap row row-flex">
 			<div class="col-md-12">
 				<h3>Accessories</h3>
 			</div>
@@ -242,7 +242,9 @@
 								</a>
 							</h4>
 							<div id="collapse1" class="term-item--collapse collapse">
-								<div class="term-item--content">sdasdasfasagasg</div>
+								<div class="term-item--content">
+									Nullam tincidunt adipiscing enim. Phasellus consectetuer vestibulum elit. Fusce vel dui.
+								</div>
 							</div>
 						</div>
 						<div class="term-item">
@@ -253,7 +255,9 @@
 								</a>
 							</h4>
 							<div id="collapse2" class="collapse">
-								<div class="term-item--content">sdasdasfasagasg</div>
+								<div class="term-item--content">
+									Nullam tincidunt adipiscing enim. Phasellus consectetuer vestibulum elit. Fusce vel dui.
+								</div>
 							</div>
 						</div>
 						<div class="term-item">
@@ -264,7 +268,9 @@
 								</a>
 							</h4>
 							<div id="collapse3" class="term-item--collapse collapse">
-								<div class="term-item--content">sdasdasfasagasg</div>
+								<div class="term-item--content">
+									Nullam tincidunt adipiscing enim. Phasellus consectetuer vestibulum elit. Fusce vel dui.
+								</div>
 							</div>
 						</div>
 						<div class="term-item">
@@ -275,7 +281,9 @@
 								</a>
 							</h4>
 							<div id="collapse4" class="term-item--collapse collapse">
-								<div class="term-item--content">sdasdasfasagasg</div>
+								<div class="term-item--content">
+									Nullam tincidunt adipiscing enim. Phasellus consectetuer vestibulum elit. Fusce vel dui.
+								</div>
 							</div>
 						</div>
 						<div class="term-item">
@@ -286,7 +294,9 @@
 								</a>
 							</h4>
 							<div id="collapse5" class="term-item--collapse collapse">
-								<div class="term-item--content">sdasdasfasagasg</div>
+								<div class="term-item--content">
+									Nullam tincidunt adipiscing enim. Phasellus consectetuer vestibulum elit. Fusce vel dui.
+								</div>
 							</div>
 						</div>
 					</div>
@@ -294,7 +304,7 @@
 				<div class="details-column col-md-4 col-sm-12 col-xs-12">
 					<h3>Klanten beoordelen ons</h3>
 					<div>
-						<img src="img/review.jpg">
+						<img src="img/review.jpg" class="img-responsive">
 					</div>
 				</div>
 			</div>
