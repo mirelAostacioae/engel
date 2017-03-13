@@ -9,7 +9,7 @@
 			</ul>
 		</div>
 		<section class="main-content row clearfix">
-			<aside class="col-md-3 col-sm-9 col-xs-12">
+			<aside class="col-md-3 col-sm-3 col-xs-12">
 				<div class="sidebar-item">
 					<h3>Type product</h3>
 					<ul>
@@ -21,35 +21,45 @@
 				<div class="sidebar-item">
 					<h3>Kies je inhoudsmaat</h3>
 					<div class="sidebar-sizes clearfix">
-						<div class="size-item">
+						<div class="size-item col-md-6 col-sm-12 col-xs-6">
 							<div>
-								<img src="img/size.jpg" style="width: 50px; height: 60px;">
+								<div>
+									<img src="img/size.jpg" style="width: 50px; height: 60px;">
+								</div>
+								<p>14 liter</p>
 							</div>
-							<p>14 liter</p>
 						</div>
-						<div class="size-item">
+						<div class="size-item col-md-6 col-sm-12 col-xs-6">
 							<div>
-								<img src="img/size.jpg" style="width: 55px; height: 70px;">
+								<div>
+									<img src="img/size.jpg" style="width: 55px; height: 70px;">
+								</div>
+								<p>15 liter</p>
 							</div>
-							<p>15 liter</p>
 						</div>
-						<div class="size-item">
+						<div class="size-item col-md-6 col-sm-12 col-xs-6">
 							<div>
-								<img src="img/size.jpg" style="width: 60px; height: 75px;">
+								<div>
+									<img src="img/size.jpg" style="width: 60px; height: 75px;">
+								</div>
+								<p>21 liter</p>
 							</div>
-							<p>21 liter</p>
 						</div>
-						<div class="size-item">
+						<div class="size-item col-md-6 col-sm-12 col-xs-6">
 							<div>
-								<img src="img/size.jpg" style="width: 70px; height: 90px;">
+								<div>
+									<img src="img/size.jpg" style="width: 70px; height: 90px;">
+								</div>
+								<p>32 liter</p>
 							</div>
-							<p>32 liter</p>
 						</div>
-						<div class="size-item">
+						<div class="size-item col-md-6 col-sm-12 col-xs-6">
 							<div>
-								<img src="img/size.jpg" style="width: 70px; height: 90px;">
+								<div>
+									<img src="img/size.jpg" style="width: 70px; height: 90px;">
+								</div>
+								<p>40 liter</p>
 							</div>
-							<p>40 liter</p>
 						</div>
 					</div>
 				</div>
@@ -161,8 +171,8 @@
 			<div class="col-md-12">
 				<h3>Accessories</h3>
 			</div>
-			<div class="row">
-				<div class="products-wrap col-md-6 col-sm-12 col-xs-12">
+			<div class="products-wrap col-md-6 col-sm-12 col-xs-12">
+				<div class="row">
 					<div class="product-item col-md-6 col-sm-6 col-xs-12">
 						<div class="product-item--content">
 							<h4 class="product-item--type">Inbouwkoelkast</h4>
@@ -194,24 +204,24 @@
 						</div>
 					</div>	
 				</div>
-				<div class="home-contact-wrap col-md-6 col-sm-12 col-xs-12">
-					<div class="home-contact--content clearfix">
-						<div class="col-md-8 ">
-							<h2>Hulp nodig?</h2>
-							<h3>Wij helpen u graag bij het uitzoeken van uw accessoires</h3>
-							<p>Dit is een faketekst. Alles wat hier staat is slechts om een indruk te geven van het grafische effect van tekst op deze plek. Wat u hier leest is een voorbeeldtekst.</p>
-							<p>Koos Koeler</p>
-						</div>
-						<div class="home-contact--image col-md-6">
-							<img src="img/man-right.png">
-						</div>
+			</div>
+			<div class="home-contact-wrap col-md-6 col-sm-12 col-xs-12">
+				<div class="home-contact--content clearfix">
+					<div class="col-md-8 col-sm-8">
+						<h2>Hulp nodig?</h2>
+						<h3>Wij helpen u graag bij het uitzoeken van uw accessoires</h3>
+						<p>Dit is een faketekst. Alles wat hier staat is slechts om een indruk te geven van het grafische effect van tekst op deze plek. Wat u hier leest is een voorbeeldtekst.</p>
+						<p>Koos Koeler</p>
 					</div>
-					<div class="home-contact--footer">
-						<ul class="list-inline">
-							<li><a href="#"><i class="fa fa-phone"></i>(+31) 485 372 091</a><span class="status online"></span></li>
-							<li><a href="#"><i class="fa fa-envelope"></i>info@engel-europe.nl</a></li>
-						</ul> 
+					<div class="home-contact--image col-lg-4 col-md-5 col-sm-4">
+						<img src="img/man-right.png">
 					</div>
+				</div>
+				<div class="home-contact--footer">
+					<ul class="list-inline">
+						<li><a href="#"><i class="fa fa-phone"></i>(+31) 485 372 091</a><span class="status online"></span></li>
+						<li><a href="#"><i class="fa fa-envelope"></i>info@engel-europe.nl</a></li>
+					</ul> 
 				</div>
 			</div>
 		</section>
@@ -284,7 +294,7 @@
 				<div class="details-column col-md-4 col-sm-12 col-xs-12">
 					<h3>Klanten beoordelen ons</h3>
 					<div>
-						<img src="img/review.jpg" style="width: 100%;">
+						<img src="img/review.jpg">
 					</div>
 				</div>
 			</div>

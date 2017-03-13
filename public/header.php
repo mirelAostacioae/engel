@@ -57,11 +57,14 @@
 				<div class="search-wrap flex-item">
 					<form class="search-form">
 						<input type="text" name="searchInput" class="search-item" placeholder="Zoek een product...">
-						<select class="search-item">
-							<option>Alle categorieen</option>
-							<option>categ 1</option>
-							<option>categ 2</option>
-						</select>
+						<div class="search-item--arrow">
+							<i class="fa fa-angle-down"></i>
+							<select class="search-item">
+								<option>Alle categorieen</option>
+								<option>categ 1</option>
+								<option>categ 2</option>
+							</select>
+						</div>
 						<button type="submit" class="search-item"><i class="fa fa-search"></i></button>
 					</form>
 				</div>

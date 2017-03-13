@@ -51,20 +51,22 @@
 	.sidebar-sizes
 		margin-top 10px
 	.size-item
-		display flex
-		align-items flex-end
-		flex-direction column
-		flex-wrap wrap
-		width calc(50% - 5px)
 		height 140px
 		float left
-		padding 15px
-		margin 5px
-		background-color #efefef
+		padding 0
+		margin-bottom 10px
 		&:nth-child(2n+1)
-			margin-left 0
+			padding-right 5px
 		&:nth-child(2n)
-			margin-right 0
+			padding-left 5px
+		> div
+			display flex
+			align-items flex-end
+			flex-direction column
+			flex-wrap wrap
+			height 100%
+			background-color #efefef
+			padding 15px
 		p, div
 			width 100%
 			margin-top auto
@@ -73,7 +75,10 @@
 			font-weight 400
 			font-family primaryFont
 			text-align center
-			
+		img
+			max-width 100%
+		@media all and (min-width: 768px) and (max-width: 992px)
+			padding 0 !important
 .promo-wrap
 	position relative
 	padding 30px
@@ -111,6 +116,9 @@
 	background-image url('../img/hulp-bg.jpg')
 	background-size cover 
 	background-position center
+	> div
+		position relative
+		z-index 1
 	h2 
 		margin-bottom 15px
 		color #047cbe
@@ -137,10 +145,17 @@
 			transform rotate(-7deg)
 	.home-contact--image
 		position absolute
-		right -10px
-		bottom 0
+		right 0
+		bottom 25px
+		z-index 0
 		img
-			width 100%
+			width 120%
+			margin-left -20%
+			@media all and (max-width: 992px)
+				width 80%
+				margin-left 0
+			@media all and (max-width: 767px)
+				display none
 .home-contact--footer 
 	position absolute
 	bottom 0 
@@ -163,10 +178,17 @@
 		font-size 22px
 		font-weight 500
 		font-family secondaryFont
+		@media all and (max-width: 992px)
+			margin-bottom 20px
 	p
 		font-size 14px
 		font-family primaryFont
 		line-height 30px
+	img
+		@media all and (min-width: 993px)
+			width 100%
+	@media all and (max-width: 992px)
+		margin-top 35px
 .term-item
 	position relative
 	border 1px solid #f2f2f2
@@ -190,3 +212,8 @@
 			transition transform .2s ease
 	.term-item--content
 		padding 25px
+		
+@media all and (max-width: 992px)
+	.types-wrap
+		ul
+			text-align center

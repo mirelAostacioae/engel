@@ -28,6 +28,7 @@ footer
 		-moz-background-size cover
 		background-size cover
 	nav
+		
 		li
 			padding 20px 0
 			font-weight 700
@@ -52,6 +53,11 @@ footer
 	position absolute
 	bottom 0
 	z-index 1
+	@media all and (max-width: 992px)
+		display none
+	img
+		@media all and (max-width: 1200px)
+			width 120%
 .footer-main
 	background-image url('../img/footer-main-bg.jpg')
 	background-repeat no-repeat
@@ -61,7 +67,10 @@ footer
 		color lightColor
 		font-size 30px
 		font-family 'angelina'
-		transform: rotate(-2deg);
+		transform rotate(-2deg)
+		@media all and (max-width: 992px)
+			padding-left 0
+			text-align center
 	.footer-main--list
 		margin-bottom 30px
 		li
@@ -90,3 +99,22 @@ footer
 		font-family primaryFont
 	li
 		padding: 12px 0 12px 17px;
+		
+@media all and (max-width: 992px)
+	.footer-top, .footer-main, .footer-menu
+		ul, div
+			width 100%
+			text-align center
+			li
+				padding 10px 5px
+				a
+					color lightColor !important
+		&:before
+			content initial
+	.footer-main
+		.footer-main--content
+			padding 50px 0
+	.footer-top
+		position static
+		li
+			padding 20px 0 !important
