@@ -20,21 +20,36 @@
 				</div>
 				<div class="sidebar-item">
 					<h3>Kies je inhoudsmaat</h3>
-					<div class="sidebar-sizes row">
-						<div class="size-item col-md-6">
-							<img src="img/size.jpg">
+					<div class="sidebar-sizes clearfix">
+						<div class="size-item">
+							<div>
+								<img src="img/size.jpg" style="width: 50px; height: 60px;">
+							</div>
+							<p>14 liter</p>
 						</div>
-						<div class="size-item col-md-6">
-							<img src="img/size.jpg">
+						<div class="size-item">
+							<div>
+								<img src="img/size.jpg" style="width: 55px; height: 70px;">
+							</div>
+							<p>15 liter</p>
 						</div>
-						<div class="size-item col-md-6">
-							<img src="img/size.jpg">
+						<div class="size-item">
+							<div>
+								<img src="img/size.jpg" style="width: 60px; height: 75px;">
+							</div>
+							<p>21 liter</p>
 						</div>
-						<div class="size-item col-md-6">
-							<img src="img/size.jpg">
+						<div class="size-item">
+							<div>
+								<img src="img/size.jpg" style="width: 70px; height: 90px;">
+							</div>
+							<p>32 liter</p>
 						</div>
-						<div class="size-item col-md-6">
-							<img src="img/size.jpg">
+						<div class="size-item">
+							<div>
+								<img src="img/size.jpg" style="width: 70px; height: 90px;">
+							</div>
+							<p>40 liter</p>
 						</div>
 					</div>
 				</div>
@@ -206,33 +221,63 @@
 					<h3>Engel koelkasten</h3>
 					<p>Dit is een faketekst. Alles wat hier staat is slechts om een indruk te geven van het grafische effect van tekst op deze plek. Wat u hier leest is een voorbeeldtekst. Deze wordt later vervangen door de uiteindelijke tekst, die nu nog niet bekend is. De faketekst is dus een tekst die eigenlijk nergens over gaat. Het grappige is, dat mensen deze toch vaak lezen. Zelfs als men weet dat het om een faketekst gaat, lezen ze toch door.</p>
 				</div>
-				<div class="details-column col-md-4 col-sm-12 col-xs-12">
+				<div class="details-column col-md-4 col-sm-12 col-xs-12" id="sidebar">
 					<h3>Veel gestelde vragen</h3>
 					<div class="terms-wrap">
 						<div class="term-item">
-							<h4>Wat is de levertijd van de producten?</h4>
-							<i class="fa fa-chevron-down" aria-hidden="true"></i>
-							<p></p>
+							<h4>
+								<a data-toggle="collapse" data-parent="#sidebar" href="#collapse1">
+									Wat is de levertijd van de producten?
+									<i class="fa fa-chevron-down" aria-hidden="true"></i>
+								</a>
+							</h4>
+							<div id="collapse1" class="term-item--collapse collapse">
+								<div class="term-item--content">sdasdasfasagasg</div>
+							</div>
 						</div>
 						<div class="term-item">
-							<h4>Zit er garantie op de producten?</h4>
-							<i class="fa fa-chevron-down" aria-hidden="true"></i>
-							<p></p>
+							<h4>
+								<a data-toggle="collapse" data-parent="#sidebar" href="#collapse2">
+									Zit er garantie op de producten?
+									<i class="fa fa-chevron-down" aria-hidden="true"></i>
+								</a>
+							</h4>
+							<div id="collapse2" class="collapse">
+								<div class="term-item--content">sdasdasfasagasg</div>
+							</div>
 						</div>
 						<div class="term-item">
-							<h4>Wat is de levertijd van de producten?</h4>
-							<i class="fa fa-chevron-down" aria-hidden="true"></i>
-							<p></p>
+							<h4>
+								<a data-toggle="collapse" data-parent="#sidebar" href="#collapse3">
+									Wat is de levertijd van de producten?
+									<i class="fa fa-chevron-down" aria-hidden="true"></i>
+								</a>
+							</h4>
+							<div id="collapse3" class="term-item--collapse collapse">
+								<div class="term-item--content">sdasdasfasagasg</div>
+							</div>
 						</div>
 						<div class="term-item">
-							<h4>Zit er garantie op de producten?</h4>
-							<i class="fa fa-chevron-down" aria-hidden="true"></i>
-							<p></p>
+							<h4>
+								<a data-toggle="collapse" data-parent="#sidebar" href="#collapse4">
+									Zit er garantie op de producten?
+									<i class="fa fa-chevron-down" aria-hidden="true"></i>
+								</a>
+							</h4>
+							<div id="collapse4" class="term-item--collapse collapse">
+								<div class="term-item--content">sdasdasfasagasg</div>
+							</div>
 						</div>
 						<div class="term-item">
-							<h4>Wat is de levertijd van de producten?</h4>
-							<i class="fa fa-chevron-down" aria-hidden="true"></i>
-							<p></p>
+							<h4>
+								<a data-toggle="collapse" data-parent="#sidebar" href="#collapse5">
+									Wat is de levertijd van de producten?
+									<i class="fa fa-chevron-down" aria-hidden="true"></i>
+								</a>
+							</h4>
+							<div id="collapse5" class="term-item--collapse collapse">
+								<div class="term-item--content">sdasdasfasagasg</div>
+							</div>
 						</div>
 					</div>
 				</div>

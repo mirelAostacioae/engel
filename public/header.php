@@ -50,20 +50,27 @@
 			</div>
 		</div>
 		<div class="header-main">
-			<div class="container">
+			<div class="container row-flex row-flex--middle">
 				<div class="logo-wrap">
 					<img src="img/logo.png" alt="Engel" class="img-responsive">
 				</div>
-				<div class="search-wrap">
-					<form>
-						<input type="text" name="searchInput">
-						<select>
+				<div class="search-wrap flex-item">
+					<form class="search-form">
+						<input type="text" name="searchInput" class="search-item" placeholder="Zoek een product...">
+						<select class="search-item">
 							<option>Alle categorieen</option>
 							<option>categ 1</option>
 							<option>categ 2</option>
 						</select>
-						<button type="submit"><i class="fa fa-search"></i></button>
+						<button type="submit" class="search-item"><i class="fa fa-search"></i></button>
 					</form>
+				</div>
+				<div class="cart-wrap">
+					<i class="fa fa-shopping-cart">
+						
+					<span class="cart-counter">0</span>
+					</i>
+					<span class="cart-price"><sup>&euro;</sup> 0.00</span>
 				</div>
 			</div>
 		</div>

@@ -23,6 +23,56 @@
 				margin-right 5px 
 				font-size 16px
 				color #53af32
+
+.sidebar-item
+	h3
+		padding 15px 20px
+		border 1px solid #e0e0e0
+		border-bottom-width 0px
+		border-top-left-radius 4px
+		border-top-right-radius 4px
+		background-color #eeeeee
+		color #121211
+		font-size 18px
+		font-weight 700
+		font-family secondaryFont
+	ul
+		margin 15px 0
+		list-style none
+		li
+			padding 15px 20px
+			border-bottom 1px solid #e3e2e2
+			color darkColor
+			font-size 16px
+			font-weight 400
+			font-family primaryFont
+			&:last-child
+				border-bottom-width 0px
+	.sidebar-sizes
+		margin-top 10px
+	.size-item
+		display flex
+		align-items flex-end
+		flex-direction column
+		flex-wrap wrap
+		width calc(50% - 5px)
+		height 140px
+		float left
+		padding 15px
+		margin 5px
+		background-color #efefef
+		&:nth-child(2n+1)
+			margin-left 0
+		&:nth-child(2n)
+			margin-right 0
+		p, div
+			width 100%
+			margin-top auto
+			color darkColor
+			font-size 14px
+			font-weight 400
+			font-family primaryFont
+			text-align center
 			
 .promo-wrap
 	position relative
@@ -119,16 +169,24 @@
 		line-height 30px
 .term-item
 	position relative
-	padding 25px
 	border 1px solid #f2f2f2
 	margin-bottom 4px
 	h4
-		font-size 16px
-		font-weight 500
-		font-family secondaryFont
-	.fa
-		position: absolute;
-		top: 50%;
-		right: 25px;
-		transform: translateY(-50%);
-		color: #adacac;
+		a
+			position relative
+			display block
+			padding 25px
+			color #121212
+			font-size 16px
+			font-weight 500
+			font-family secondaryFont
+			&[aria-expanded='true']
+				.fa
+					transform rotate(180deg)
+		.fa
+			position absolute
+			right 25px
+			color #adacac
+			transition transform .2s ease
+	.term-item--content
+		padding 25px
