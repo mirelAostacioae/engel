@@ -10,7 +10,34 @@
 		</div>
 		<section class="main-content row clearfix">
 			<aside class="col-md-3 col-sm-9 col-xs-12">
-				
+				<div class="sidebar-item">
+					<h3>Type product</h3>
+					<ul>
+						<li>Koelkast (vrijstaand)</li>
+						<li>Koelkast (inbouw)</li>
+						<li>Koelbox</li>
+					</ul>
+				</div>
+				<div class="sidebar-item">
+					<h3>Kies je inhoudsmaat</h3>
+					<div class="sidebar-sizes row">
+						<div class="size-item col-md-6">
+							<img src="img/size.jpg">
+						</div>
+						<div class="size-item col-md-6">
+							<img src="img/size.jpg">
+						</div>
+						<div class="size-item col-md-6">
+							<img src="img/size.jpg">
+						</div>
+						<div class="size-item col-md-6">
+							<img src="img/size.jpg">
+						</div>
+						<div class="size-item col-md-6">
+							<img src="img/size.jpg">
+						</div>
+					</div>
+				</div>
 			</aside>
 			<main class="col-md-9 col-sm-9 col-xs-12">
 				<div class="products-wrap row clearfix">
@@ -211,6 +238,9 @@
 				</div>
 				<div class="details-column col-md-4 col-sm-12 col-xs-12">
 					<h3>Klanten beoordelen ons</h3>
+					<div>
+						<img src="img/review.jpg" style="width: 100%;">
+					</div>
 				</div>
 			</div>
 		</section>
