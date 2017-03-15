@@ -38,6 +38,15 @@
 					</li>
 					<li><a href="#"><i class="fa fa-envelope"></i>info@engel-europe.nl</a></li>
 				</ul> 
+				<div class="logo-wrap visible-xs">
+					<img src="img/logo.png" alt="Engel" class="img-responsive">
+				</div>
+				<input type="checkbox" id="mobile-menu-id" class="mobile-menu">
+				<label for="mobile-menu-id" class="navbar-toggle mobile-menu-label">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</label>
 				<nav>
 					<ul class="list-inline pull-right">
 						<li><a href="#">Home</a></li>
@@ -51,7 +60,7 @@
 		</div>
 		<div class="header-main">
 			<div class="container row-flex row-flex--middle">
-				<div class="logo-wrap">
+				<div class="logo-wrap hidden-xs">
 					<img src="img/logo.png" alt="Engel" class="img-responsive">
 				</div>
 				<div class="search-wrap flex-item">
